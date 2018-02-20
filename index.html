@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Retouchon - professional retouch service</title>
+	<!-- Осовной CSS-->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- -->
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+	<script src="https://use.fontawesome.com/8264ba21df.js"></script>
+	 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/min/dropzone.min.js'></script>
+	
+
+</head>
+<body>
+	<header>
+		<div class="language-head">
+			<select name="" id="">
+				<option value="">ENG</option>
+				<option value="">РУС</option>
+				<option value="">DE</option>
+				<option value="">FR</option>
+			</select>
+		</div>
+		<!-- -->
+		<div class="socials-head">
+			<i class="fa fa-instagram" aria-hidden="true"></i>
+			<i class="fa fa-facebook" aria-hidden="true"></i>
+			<i class="fa fa-vk" aria-hidden="true"></i>
+			<i class="fa fa-tumblr" aria-hidden="true"></i>
+		</div>
+		<!-- -->
+		<div class="logo">
+				<img src="img/system/flag/logo.png" alt="">
+		</div>
+		<!-- -->
+		<div class="authorization-head">
+			<form action="">
+				<input type="text" placeholder="Login" class="auth-field">
+				<input type="password" placeholder="Password" class="auth-field">
+				<input type="button" value="Log in" class="auth-btn">
+				<input type="button" value="Sign in" class="auth-btn">
+			</form>
+		</div>
+	</header>
+
+	<!-- -->
+	<!-- -->
+	<!-- -->
+	<!-- -->
+
+	<main>
+		<div class="left-panel">
+			<div class="left-tabs">
+				<div class="selection"><p>Face</p></div>
+				<div class="selection"><p>Arms</p></div>
+				<div class="selection"><p>Body</p></div>
+				<div class="selection"><p>Legs</p></div>
+				<div class="selection"><p>Specials</p></div>
+			</div>
+			<div class="setings-left-bar">
+
+				<a href="#" class="control_next"><img src="img/nav-arrow.png" alt="" ></a>
+				<a href="#" class="control_prev"><img src="img/nav-arrow-d.png" alt="" ></a>
+
+				<!-- -->
+				<div class="v-slider">
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/tanning.png" alt="">
+							<!-- -->
+						</div>
+						<div class="setting-param">
+							<h4>Придание загара</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Придание загара">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/volume-of-hair.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Объемные волосы</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Объемные волосы">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/remove-acne.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Удалить прыщи</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Удалить прыщи">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/thinner-waist.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Стройнее талия</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Стройнее талия">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/reduce-the-belly.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Уменьшить живот</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Уменьшить живот">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/mens-service.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Мужская услуга</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Мужская услуга">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/beautiful-chin.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Красивый подбородок</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Красивый подбородок">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/remove-folds.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Убрать складки</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Убрать складки">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/clear-the-shadow.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Убрать тень</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Убрать тень">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/womens-service.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Женская услуга</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Женская улуга">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/align-the-nose.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Выровнять нос</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Выровнять нос">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/paint-gray-hair.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Закрасить седину</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Закрасить седину">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/shaving-hair.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Удалить волосы</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Удалить волосы">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/bags.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Убрать мешки</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Убрать мешки">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/delete-tattoo.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Удалить татуировку</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Удалить татуировку">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/cellulite.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Убрать целлюлит</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Убрать целлюлит">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/broad-shoulders.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Шире плечи</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Шире плечи">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/make-smile.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Сделать улыбку</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Сделать улыбку">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/posture.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Красивая осанка</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Красивая осанка">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/long-legs.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Длиннее ноги</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Длиннее ноги">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/wrinkles.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Убрать морщины</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Убрать морщины">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/fuller-face.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Полнее лицо</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Полнее лицо">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/biger-eyes.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Увеличить глаза</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Увеличить глаза">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/thiner-face.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Худее лицо</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Худее лицо">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/remove-braces.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Убрать брекиты</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Убрать брекиты">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/smaller-nose.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Уменьшить нос</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Уменьшить нос">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/red-eyes.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Убрать красные глаза</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Убрать красные глаза">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/white-teeth.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Отбелить зубы</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Отбелить зубы">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/thiner-legs.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Худее ноги</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Худее ноги">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/smaller-ears.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Уменьшить уши</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Уменьшить уши">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/clear-shine.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Убрать блеск</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Убрать блеск">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/double-chin.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Второй подбородок</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Второй подбородок">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/big-lips.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Пухлые губы</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Пухлые губы">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/thiner-arms.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Тоньше руки</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Тоньше руки">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/big-tits.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Увеличить грудь</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Увеличить грудь">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/tight-breasts.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Подтянутая грудь</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Подтянутая грудь">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/iron-clothes.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Разгладить одежду</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Разгладить одежду">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/tighten-buttocks.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Подтянуть ягодицы</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Подтянуть ягодицы">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/muscles.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Увеличить мышцы</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Увеличить мышцы">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/thinner-thigh.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Уменьшить бедра</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Уменьшить бедра">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+					<div class="setting-row">
+						<div class="round-img">
+							<img src="img/icons/bubble-but.png" alt="">
+						</div>
+						<div class="setting-param">
+							<h4>Увеличить ягодицы</h4>
+							<!-- -->
+							<label class="switch">
+								<input type="checkbox" name="Увеличить ягодицы">
+								<span class="slider round"></span>
+							</label>
+							<!-- -->
+							<p>NORM</p>
+						</div>
+					</div>
+				</div>
+				<!-- -->
+				
+			</div>
+		</div>
+		<!-- -->
+		<!-- DRAG & DROP PANEL -->
+		<div class="mid-panel">
+			<div class="mid-tabs">
+				<div class="selection"><p>Simple</p></div>
+				<div class="selection"><p>Professional</p></div>
+				<div class="selection"><p>Event</p></div>
+				<div class="selection"><p>Model</p></div>
+				<div class="selection"><p>Commercial</p></div>
+			</div>
+			<div class="drag-drop">
+			<form action="/" method="post" class="dropzone set-img" id="my-awesome-dropzone">
+				<!--<div class="drag-drop-img">
+					 <img src="img/cloud.png" alt="">
+					<span>drag and drop here</span> 
+				</div>-->
+			</form>
+			</div>
+			<div class="add-settings-row"></div>
+		</div>
+				
+		
+		<!-- -->
+		<!-- RIGHT PANEL -->
+		<div class="right-panel">
+			
+		</div>
+	</main>
+
+	<!-- -->
+	<!-- -->
+	<!-- -->
+	<!-- -->
+
+	<footer>
+		
+	</footer>
+	<script src="js/checker.js"></script>
+	<script src="js/v-slider.js"></script>
+	<script src="js/setting-checker.js"></script>
+	<script src="js/drag_drop.js"></script>
+	
+</body>
+</html>
